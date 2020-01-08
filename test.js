@@ -1,7 +1,5 @@
 var get_Tbody = document.getElementById("tbody");
 var get_Table = document.getElementById("myTable");
-var td_tag = document.createElement('td');
-var tr_tag = document.createElement('tr');
 
 function AddButton_click()
 {
@@ -32,9 +30,6 @@ function DelButton_click()
     var msg = document.getElementById(number);
     var parent = msg.parentNode;
     parent.removeChild(msg);
-    //console.log(old_table.childNodes);
-    //console.log(msg.childNodes);
-    
 }
 
 function EditButton_click()
