@@ -24,7 +24,7 @@ table.mytable tbody th {
     border-bottom: 1px solid #ccc;
     background: #fcf1f4;
 }
-table.mytable td {
+table.mytable td, th {
     width: 350px;
     padding: 10px;
     vertical-align: top;
@@ -32,14 +32,13 @@ table.mytable td {
 }
 h1 {
     color:indigo;
+    width: 100%;
+    text-align: center;
 }
-
 .btn {
     background-color: #ffffb1;
     padding: 3px 10px;
     color: black;
     text-align: center;
-    text-decoration: ;
     font-size: medium;
-
 }
