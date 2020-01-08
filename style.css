@@ -30,4 +30,16 @@ table.mytable td {
     vertical-align: top;
     border-bottom: 1px solid #ccc;
 }
-h1 {color:indigo;}
+h1 {
+    color:indigo;
+}
+
+.btn {
+    background-color: #ffffb1;
+    padding: 3px 10px;
+    color: black;
+    text-align: center;
+    text-decoration: ;
+    font-size: medium;
+
+}
