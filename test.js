@@ -45,6 +45,10 @@ function EditButton_click()
     var str = prompt('Input Your Info');
     if(num > 0 && num < 4)
         table.childNodes[num - 1].innerHTML = str;
+    if(num == 3)
+    {
+        table.id = str;
+    }
 }
 
 function Hilight_click()
